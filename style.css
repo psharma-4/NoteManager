@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+#notebox{
+    padding: 20%;
+}
+.mynote{
+    
+    padding: 1%;
+    margin: 3%;
+    background-color: yellow;
+    width: 250px;
+    border: black solid thin;
+    box-shadow: yellowgreen 1px 3px 5px;
+    border-radius: 5%;
+}
+.headernote{
+    background-color: rgb(255, 255, 102);
+}
+.mynote-title{
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+.mynote-body{
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+.mynote-close{
+    float :right;
+}
