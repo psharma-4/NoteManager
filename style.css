@@ -20,15 +20,17 @@ body{
     border-radius: 5%;
 }
 .headernote{
-    background-color: rgb(255, 255, 102);
+    background-color: rgb(255, 255, 82);
 }
 .mynote-title{
     padding: 2%;
     overflow-wrap: break-word;
+    font-family: 'Caveat', cursive;
 }
 .mynote-body{
     padding: 2%;
     overflow-wrap: break-word;
+    font-family: 'Caveat', cursive;
 }
 .mynote-close{
     float :right;

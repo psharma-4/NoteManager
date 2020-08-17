@@ -1,4 +1,4 @@
-import NoteManager from "./notemanager";
+import NoteManager from "./notemanager.js";
 // import Note from "./Note";
 const notemanager= new NoteManager(
     {el:document.querySelector('.mynotes'),
@@ -9,7 +9,29 @@ notes: [
     },
     {
         title : 'hello2',
-        body : 'hii'
+        body : 'hii hooooooooooooooooooosssssssssssssssssssssssssssssssssssssssssss'
     },
 
 ]});
+
+notemanager.onnotechange=(noteobj)=>{
+    console.log(noteobj);
+};
+notemanager.onnoteadd=(noteobj)=>{
+    console.log(noteobj);
+};
+notemanager.onnoteremove=(noteman)=>{
+    console.log(noteman);
+
+};
+
+
+
+
+const newnotebtn=document.querySelector('.newnote');
+newnotebtn.onclick = () =>{
+    notemanager.addnote({
+        title : ' ',
+        body : ' '
+    });
+};
